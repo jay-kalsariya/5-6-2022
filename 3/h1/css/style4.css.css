@@ -1,0 +1,19 @@
+.table1{
+    margin: auto;
+    margin-top: 80px;
+    border-top: 1px solid rgb(red, green, blue);
+    border-bottom: 1px solid rgb(red, green, blue);
+    color: rgb(245, 234, 234);
+    margin: auto;
+}
+th{
+  
+}
+.team{
+    border-right: 1px solid rgb(245, 234, 234);
+    padding-right: 8px;
+}
+.today{
+    border-left: 1px solid rgb(245, 234, 234);
+    padding-left: 8px;
+}

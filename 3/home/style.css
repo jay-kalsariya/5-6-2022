@@ -1,0 +1,140 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+   width: 100%;
+   height: 100vh;  
+   background-image: url("pexels-pixabay-210186.jpg");
+   background-size: 100% 100%;
+}
+nav{
+   width: 100%;
+   height: 15vh;
+   background: violet;
+   color: azure;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+}
+.logo{
+   width: 25%;
+   text-align: center;
+   background: turquoise;
+}
+.menu{
+   width: 70%;
+   background: teal;
+   display: flex;
+   justify-content: space-around;
+
+}
+.menu a{
+   color: aliceblue;
+   text-decoration: none;
+   font-weight: bold;
+}
+.menu :hover{
+   background: #00b894;
+      color:white;
+      transition: all .5s ease;
+}
+main{
+   width: 100%;
+   height: 85vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: aliceblue;
+   text-align: center ;
+   
+}
+section{
+ padding-top: 40px;
+}
+section h1{
+   font-size: 35px;
+   font-weight: 200;
+   letter-spacing: 3px;
+   text-shadow: 2px 2px 2px black;
+
+}
+section h1:hover{
+   background: #00b894; 
+}
+section h1{
+   margin: 30px 0 20px 0;
+   font-size: 55px;
+   font-weight: 700px;
+   text-shadow: 2px 1px 5px black;
+}
+section p{
+   font-size: 25px;
+   word-spacing: 2px;
+   margin-bottom: 25px;
+     text-shadow: 1px 1px 1px black;
+}
+   section a{
+      padding: 12px 10px;
+      border-radius: 4px;
+      outline: none;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 1px;
+   }
+   .btnone{
+      background: #ffff;
+      color:#00b894;;
+      margin-right: 20px;
+      transition: all .5s ease;
+
+   }
+   .btnone:hover{
+      background: #00b894;
+      color:white;
+   }
+
+   .btntwo{
+      background: #ffff;
+      color:#00b894;;
+      margin-right: 20px;
+      transition: all .5s ease;
+   }
+
+   .btntwo:hover{
+      background: #00b894;
+      color:white;
+   }
+.content:after{
+   content: '';
+   animation: changetext 5s infinite;
+  
+
+}
+@keyframes changetext{
+   0%{content:"pokhara";
+       color: rgb(218, 18, 18);
+   }
+  20%{content:"kathmandu";
+   color: rgb(14, 211, 47);
+}
+   35%{content:"jay";
+      color: rgb(255, 127, 138);
+   }
+   60%{content:"Ambani";
+      color: rgb(75, 42, 165);
+   }
+   80%{content:"lumbini";
+      color: darkmagenta;
+   
+   }
+   100%{content:"Adani";
+      color: mediumorchid;
+   
+   }
+
+}

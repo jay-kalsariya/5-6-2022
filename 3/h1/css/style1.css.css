@@ -1,0 +1,36 @@
+body{
+    margin:0px ;
+    padding: 0px;
+    background-color: rgb(78, 243, 1);
+}
+nav{
+    width: 100%;
+    overflow:auto;
+    background: #000;
+}
+ul{
+    padding: 0px;
+    width: 100%;
+   list-style: none;
+}
+
+li{
+    float: left;
+}
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px,15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-align: center;
+
+}
+.item a{
+text-align: right;
+}
+.item a:hover{
+background-color: aquamarine ;
+
+}

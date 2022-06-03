@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contanar {
+    background-color: rgba(198, 11, 245, 0.5);
+    text-align: right;
+    margin: 0px;
+    padding: 2px;
+}
+
+
+ul {
+
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+
+ul li {
+    display: inline-flex;
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(102, 21, 252);
+    padding: 20px 10px;
+
+}
+
+a :hover {
+    color: rgb(248, 3, 36);
+}
+
+.pqr {
+    background-color: #e42f0f;
+    border: none;
+    color: rgb(16, 218, 16);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    background-color: rgb(106, 80, 255);
+    border-style: double;
+    border-width: thick;
+}
+
+.bbb {
+    float: left;
+
+}
+
+h2 {
+    text-shadow: 2px 2px 5px red;
+}
+
+.hij {
+    border-style: solid;
+    border-color: rgb(30, 16, 228);
+}
+input,b{
+    color: #e42f0f;
+}
+
+    input[type=submit] {
+        width: 40%;
+        background-color: #060;
+        color: white;
+        padding: 15px 15px;
+        margin: 4px auto;
+        border: none;
+        border-radius: 4px;
+        border: 2px solid rgb(53, 7, 221);
+        border-radius: 12px;
+        align-items: center;
+        outline-style: inset;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #F00;
+        border-style: double;
+        border-width: thick;
+        align-items: center;
+     
+    }

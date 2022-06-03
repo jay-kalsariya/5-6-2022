@@ -1,0 +1,195 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: violet;
+        }
+
+        h1 {
+            text-align: center;
+            background: yellow;
+        }
+
+        h2 {
+            text-align: center;
+            background: rgb(255, 0, 191);
+        }
+
+        h4 {
+            text-align: center;
+            background-color: dimgray;
+        }
+
+        .Grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            padding: 1px;
+            background-color: tomato;
+        }
+
+        .Grid-container>div {
+            background-color: #f1f1f1;
+            border: 2px solid blue;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .Grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            padding: 10px;
+            background-color: tomato;
+        }
+
+        .Grid-container1>div {
+            background-color: #f1f1f1;
+            border: 2px solid blue;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        .Grid-container2 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 80px 250px;
+            gap: 10px;
+            padding: 10px;
+            background-color: rgb(255, 71, 255);
+        }
+
+        .Grid-container2>div {
+            background-color: #f1f1f1;
+            padding: 20px 0;
+            text-align: center;
+
+            font-size: 30px;
+        }
+
+        .Grid-container3 {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 50px 50px 50px;
+            gap: 10px;
+            padding: 5px;
+            background-color: rgb(255, 71, 255);
+        }
+
+        .Grid-container3>div {
+            background-color: #f1f1f1;
+
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .Grid-container4 {
+            display: grid;
+            justify-content:center;
+            grid-template-columns: 50px 50px 50px;
+            gap: 10px;
+            padding: 5px;
+            background-color: rgb(255, 71, 255);
+        }
+
+        .Grid-container4>div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 4px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+        .Grid-container5 {
+            display: grid;
+            justify-content:end;
+            grid-template-columns: 50px 50px 50px;
+            gap: 10px;
+            padding: 5px;
+            background-color: rgb(255, 71, 255);
+        }
+
+        .Grid-container5>div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 4px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grid-container</h1>
+    <div class="Grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    <h2>Grid template-columns property</h2>
+
+    <div class="Grid-container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+    </div>
+    <h2>Grid-template Row property</h2>
+
+    <div class="Grid-container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h1>Justify-content property</h1>
+
+    <div class="Grid-container3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+
+    </div>
+    <h4>justify-content center property</h4>
+
+    <div class="Grid-container4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+
+    </div>
+    <h4>align-content property</h4>
+
+    <div class="Grid-container5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+
+    </div>
+</body>
+
+</html>

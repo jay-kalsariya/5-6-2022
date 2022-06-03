@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-item</title>
+</head>
+
+<body>
+    <h2>Grid-item</h2>
+    <html>
+
+    <head>
+        <style>
+            body {
+                background-color: violet;
+            }
+
+            h2 {
+                text-align: center;
+                background: yellow;
+            }
+
+
+
+            .Grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                font-size: 30px;
+            }
+
+            .Grid-container1 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container1>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+
+            .Grid-container2 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container2>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+
+            .Grid-container3 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container3>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+            .Grid-container4 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container4>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+            .Grid-container5 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container5>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+            .Grid-container6 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+
+            .Grid-container6>div {
+                background-color: #f1f1f1;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+
+
+            .item1 {
+                grid-row: 1/4;
+            }
+
+            .abc2 {
+                grid-column: 3;
+                grid-column: 1 / span 4;
+
+            }
+
+            .abc5 {
+                grid-column: 1 / span 4;
+                grid-row: 2;
+            }
+
+            .abc8 {
+                grid-column: 1 / span 4;
+                grid-row: 1;
+            }
+
+            .def3 {
+                grid-column: 1/span 3;
+            }
+
+            .ghi3 {
+                grid-row: 1/4;
+            }
+            .jkl8{
+                grid-area: 1 /2 /5 / 6;
+            }
+            .mno{
+            grid-auto-flow: column;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="Grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+            <div class="item7">7</div>
+            <div class="item8">8</div>
+        </div>
+        <h2>Row property</h2>
+        <div class="Grid-container1">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+            <div class="item7">7</div>
+            <div class="item8">8</div>
+        </div>
+        <h2>Grid-layout</h2>
+        <div class="Grid-container2">
+            <div class="abc1">1</div>
+            <div class="abc2">2</div>
+            <div class="abc3">3</div>
+            <div class="abc4">4</div>
+            <div class="abc5">5</div>
+            <div class="abc6">6</div>
+            <div class="abc7">7</div>
+            <div class="abc8">8</div>
+        </div>
+        <h2>Grid-columns</h2>
+        <div class="Grid-container3">
+            <div class="def1">1</div>
+            <div class="def2">2</div>
+            <div class="def3">3</div>
+            <div class="def4">4</div>
+            <div class="def5">5</div>
+            <div class="def6">6</div>
+            <div class="def7">7</div>
+            <div class="def8">8</div>
+        </div>
+        <h2>Grid-Row</h2>
+        <div class="Grid-container4">
+            <div class="ghi1">1</div>
+            <div class="ghi2">2</div>
+            <div class="ghi3">3</div>
+            <div class="ghi4">4</div>
+            <div class="ghi5">5</div>
+            <div class="ghi6">6</div>
+            <div class="ghi7">7</div>
+            <div class="ghi8">8</div>
+        </div>
+        <h2>Grid-Area</h2>
+        <div class="Grid-container5">
+            <div class="jkl1">1</div>
+            <div class="jkl2">2</div>
+            <div class="jkl3">3</div>
+            <div class="jkl4">4</div>
+            <div class="jkl5">5</div>
+            <div class="jkl6">6</div>
+            <div class="jkl7">7</div>
+            <div class="jkl8">8</div>
+            <div class="jkl9">9</div>
+            <div class="jkl10">10</div>
+            <div class="jkl11">11</div>
+            <div class="jkl12">12</div>
+            <div class="jkl13">13</div>
+            <div class="jkl14">14</div>
+            <div class="jkl15">15</div>
+
+            
+        </div>
+        <h2>Grid Between</h2>
+        <div class="Grid-container6">
+            <div class="mno1">1</div>
+            <div class="mno2">2</div>
+            <div class="mno3">3</div>
+            <div class="mno4">4</div>
+            <div class="mno5">5</div>
+            <div class="mno6">6</div>
+            <div class="mno7">7</div>
+            <div class="mno8">8</div>
+            <div class="mno9">9</div>
+            <div class="mno10">10</div>
+            <div class="mno11">11</div>
+            <div class="mno12">12</div>
+            <div class="mno13">13</div>
+            <div class="mno14">14</div>
+            <div class="mno15">15</div>
+        </div>
+    </body>
+
+    </html>
+</body>
+
+</html>

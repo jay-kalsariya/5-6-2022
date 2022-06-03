@@ -1,0 +1,11 @@
+*{
+margin: 0;
+padding: 0;
+} 
+.wapper{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(180deg,#ffff,5%,#bbbb,50%,#rgb);
+    position:absolute;
+
+}
